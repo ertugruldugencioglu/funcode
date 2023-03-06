@@ -4,63 +4,64 @@
 body{
     margin: 0vw;
 }
+
 /* ************************************************* */
 /*                    fonts                          */
 /* ************************************************* */
-.shantell-sans-p-10{
+.line-height-20{
+    line-height: 2vw;
+}
+.font-shantell-sans{
     font-family: 'Shantell Sans', cursive;
+}
+.font-sans-serif{
+    font-family: sans-serif;
+}
+.p-10{
     font-size: 1vw;
     color: white;
     margin: 0vw;
 }
-.shantell-sans-p-12{
-    font-family: 'Shantell Sans', cursive;
+.p-12{
     font-size: 1.2vw;
     color: white;
     margin: 0vw;
 }
-.sans-serif-p-12{
-    font-family: sans-serif;
+.p-12{
     color: rgb(223, 223, 223);
     font-size: 1.2vw;
-    margin-top: 1vw;
+    margin: 0vw;
 }
-.sans-serif-p-10{
-    font-family: sans-serif;
+.p-10{
     color: rgb(223, 223, 223);
     font-size: 1vw;
     margin: 0vw;
 }
-.sans-serif-p-10-dark{
-    font-family: sans-serif;
+.p-10-dark{
     color: black;
     font-size: 1vw;
     margin: 0vw;
 }
-.shantell-sans-h1-70{
-    font-family: 'Shantell Sans', cursive;
+.h1-70{
     font-size: 7vw;
     color: white;
     margin: 0vw;
     text-shadow: 0.5vw 0.5vw #662d91;
 }
-.shantell-sans-h1-50{
-    font-family: 'Shantell Sans', cursive;
+.h1-50{
     font-size: 5vw;
     color: white;
     margin: 0vw;
     text-shadow: 0.5vw 0.5vw #662d91;
     text-align: center;
 }
-.shantell-sans-h2-15{
+.h2-15{
     font-size: 1.5vw;
-    font-family: 'Shantell Sans', cursive;
     color: white;
     margin: 0;
 }
-.shantell-sans-h2-30{
+.h2-30{
     font-size: 3vw;
-    font-family: 'Shantell Sans', cursive;
     color: white;
     margin: 0;
 
@@ -103,7 +104,7 @@ nav{
 .nav-link:hover{
     transition: 0.3s;
     background-color: #865DFF;
-    box-shadow: 0 0 2vw #865DFF;
+    box-shadow: 0 0 1vw #865DFF;
 }
 /* ************************************************* */
 /*                    sections                       */
@@ -113,7 +114,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 7vw 0vw 7vw 0vw;
+    padding: 5vw 0vw 5vw 0vw;
 }
 .features{
     background-color: #6547c0;
@@ -122,20 +123,34 @@ nav{
 }
 .container{
     background-color: #865DFF;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 4vw 0vw 4vw 0vw;
+    padding: 5vw 0vw 5vw 0vw;
     align-items: center;
 }
 /* ************************************************* */
 /*                      index page                   */
 /* ************************************************* */
 .language{
-    height: 24.7vw;
-    overflow-y: scroll
+    overflow-y: scroll;
+    height: 28vw;
 }
-.language::-webkit-scrollbar{
-    width: 0vw;
+.language::-webkit-scrollbar {
+    width: 0.5vw;
+}
+.language::-webkit-scrollbar-track {
+    background: #865dff;
+    border-radius: 1vw;
+}
+.language::-webkit-scrollbar-thumb {
+    background: #643cdb3a;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+.language:hover::-webkit-scrollbar-thumb {
+    background: #643cdb97;
+    border-radius: 1vw;
 }
 .language-item{
     background-color: #34324b;
@@ -151,6 +166,7 @@ nav{
     list-style-type: none;
     padding: 0vw;
     margin: 0vw;
+    margin-right: 1vw;
 }
 .logo-funcode img{
     width: 22vw;
@@ -204,7 +220,8 @@ nav{
 }
 .meeting-functions-icon{
     width: 2vw;
-    padding: 0.2vw;
+    padding: 0.3vw;
+    margin: 0.2vw;
 }
 .meeting-functions-icon:hover{
     background-color: rgba(255, 255, 255, 0.129);
@@ -272,6 +289,10 @@ nav{
     margin: 8vw 2vw 8vw 2vw;
     text-decoration: none;
 }
+.contackt-way:hover{
+    box-shadow: 0 0 1vw #242334;
+    transition: 0.3s;
+}
 .media{
     width: 3vw;
     margin-right: 1vw;
@@ -291,12 +312,13 @@ nav{
     margin: 3vw;
 }
 .entry{
-    margin: 1vw;
+    margin: 1vw 1vw 0vw 1vw;
     border-radius: 0.5vw;
     border-style: solid;
     border-color: black;
     border-width: 0.2;
-    padding: 0.2vw;
+    padding: 0.5vw;
+    background-color: white;
 }
 .entry:focus {
     outline: none;
@@ -309,13 +331,14 @@ nav{
 }
 .submit{
     border-radius: 0.5vw;
-    border: none;
-    background-color: #242334;
+    background-color: #14141d;
+    padding: 1vw;   
 }
 .submit:hover{
     transition: 0.3s;
-    box-shadow: 0 0 2vw #865DFF;
+    box-shadow: 0 0 1vw #865DFF;
     background-color: #865DFF;
+    border-color: #865DFF;
 }
 /* ************************************************ */
 /*                     footer                       */
@@ -324,6 +347,10 @@ footer{
     background-color: #242334;
     padding: 2vw;
     display: flex;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
     justify-content: space-between;
 }
 .logo-footer img{
@@ -338,7 +365,16 @@ footer{
 .footer-navigator{
     list-style-type: none;
     margin: 0vw;
+    text-decoration: none;
+}
+.footer-nav-link{
+    text-decoration: none;
+}
+.footer-nav-link:hover{
+    color: white;
+    text-decoration:underline;
 }
 .footer-media{
     width: 2vw;
+    margin-top: 1vw;
 }
