@@ -104,16 +104,22 @@ header{
 .nav-link{
     text-decoration: none;
     color: rgb(153, 153, 153);
+    transition: 0.1s;
 }
 .nav-link:hover{
     color: white;
 }
 /* ************************** */
-/*         sections           */
+/*         container          */
 /* ************************** */
 .funcdoe-container{
     display: flex;
     flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /* ************************** */
 /*            index           */
@@ -161,22 +167,45 @@ header{
 /*             about          */
 /* ************************** */
 .about{
+    background-color: #070707c8;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    padding: 32px;
     margin: 32px;
+    width: 400px;
 }
 /* ************************** */
 /*           contact          */
 /* ************************** */
 .contact-link{
     text-decoration: none;
-    color: rgb(213, 213, 213);
 }
-.contact-link:hover{
-    color: white;
+.contact-ways{
+    background-color: #070707c8;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    padding: 32px;
+    margin-top: 32px;
 }
 .contact-way{
     display: flex;
     align-items: center;
+    width: 400px;
+    background-color: #070707;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    margin: 4px;
+    padding: 4px;
+    transition: 0.1s;
 }
+.contact-way:hover{
+    background-color: #4c4c4c;}
 .media{
     width: 40px;
     margin: 4px;
@@ -206,6 +235,8 @@ footer{
 .footer-nav-link{
     text-decoration: none;
     color: rgb(153, 153, 153);
+    transition: 0.1s;
+
 }
 .footer-nav-link:hover{
     color: white;
@@ -223,6 +254,9 @@ footer{
     flex-direction: column;
     padding: 32px;
     border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
 }
 .entry{
     background-color: #070707;
