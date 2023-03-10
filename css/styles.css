@@ -164,6 +164,10 @@ header{
 /* ************************** */
 .contact-link{
     text-decoration: none;
+    color: rgb(213, 213, 213);
+}
+.contact-link:hover{
+    color: white;
 }
 .contact-way{
     display: flex;
