@@ -63,6 +63,11 @@ main{
     color: white;
     margin: 0vw;
 }
+.h2-2{
+    font-size: 2em;
+    color: white;
+    margin: 0vw;
+}
 .h2-3{
     font-size: 3em;
     color: white;
@@ -163,6 +168,63 @@ header{
     padding: 12px;
     width: auto;
 }
+.meeting{
+    background-color: #070707c8;
+    padding: 12px 32px 12px 32px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 32px;
+    align-items: center;
+}
+.meeting-column{
+    display: flex;
+    flex-direction: row;
+}
+.person{
+    background-color: #070707;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    height: 120px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.person img{
+    width: 90px;
+}
+.meeting-functions-icon{
+    margin-top: 8px;
+    width: 35px;
+    padding: 4px;
+}
+.meeting-functions-icon:hover{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 12px;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature{
+    width: 500px;
+    margin: 12px;
+    background-color: #070707c8;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(73, 72, 72);
+    padding: 32px;
+}
 /* ************************** */
 /*             about          */
 /* ************************** */
@@ -207,7 +269,7 @@ header{
 .contact-way:hover{
     background-color: #4c4c4c;}
 .media{
-    width: 40px;
+    width: 35px;
     margin: 4px;
 }
 /* ************************** */
@@ -258,6 +320,7 @@ footer{
     border-width: 1px;
     border-color: rgb(73, 72, 72);
     margin-top: 32px;
+    gap: 28px;
 }
 .entry{
     background-color: #070707;
@@ -265,11 +328,21 @@ footer{
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: solid;
-    margin: 12px;
     width: 300px;
 }
 .entry:focus{
     outline: none;
+}
+.submit{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #2f2e2e;
+    transition: 0.1s;
+}
+.submit:hover{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #7f7f7f;
 }
 @media only screen and (max-width: 760px){
     .nav-list{
