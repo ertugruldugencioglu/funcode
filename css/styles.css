@@ -177,8 +177,8 @@ header{
     border-color: rgb(73, 72, 72);
     display: flex;
     flex-direction: column;
-    width: 650px;
-    margin: 32px;
+    width: 500px;
+    margin: 16px;
     align-items: center;
 }
 .meeting-column{
@@ -191,19 +191,19 @@ header{
     border-style: solid;
     border-width: 1px;
     border-color: rgb(73, 72, 72);
-    height: 120px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 12px;
 }
 .person img{
-    width: 90px;
+    width: 70px;
 }
 .meeting-functions-icon{
     margin-top: 8px;
-    width: 35px;
+    width: 30px;
     padding: 4px;
 }
 .meeting-functions-icon:hover{
@@ -363,5 +363,11 @@ footer{
 @media only screen and (max-width: 650px){
     .footer-logo{
         display: none;
+    }
+    .meeting{
+        display: none;
+    }
+    .feature{
+        width: 260px;
     }
 }
