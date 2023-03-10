@@ -3,12 +3,13 @@
 /* ************************** */
 body{
     margin: 0px;
-    background-image: url("d400e311-05b3-4d21-bfc1-4d5bd27a658d.png");
+    background-image: url("../img/pagebackgroud.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 /* ************************** */
 /*             main           */
@@ -17,6 +18,7 @@ main{
     max-width: 1200px;
     display: block;
     margin: auto;
+    margin-bottom: 32px;
 }
 /* ************************** */
 /*             font           */
