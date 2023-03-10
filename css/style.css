@@ -366,4 +366,10 @@ footer{
     .feature{
         width: 260px;
     }
+    .about{
+        width: 350px;
+    }
+    .contact-way{
+        width: 350px;
+    }
 }
