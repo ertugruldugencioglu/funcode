@@ -34,6 +34,11 @@ main{
     color: white;
     margin: 0vw;
 }
+.p-15{
+    font-size: 1.5em;
+    color: white;
+    margin: 0vw;
+}
 .p-1{
     font-size: 1em;
     color: white;
@@ -153,6 +158,20 @@ header{
 /* ************************** */
 .about{
     margin: 32px;
+}
+/* ************************** */
+/*           contact          */
+/* ************************** */
+.contact-link{
+    text-decoration: none;
+}
+.contact-way{
+    display: flex;
+    align-items: center;
+}
+.media{
+    width: 40px;
+    margin: 4px;
 }
 /* ************************** */
 /*           footer           */
