@@ -19,10 +19,14 @@ main{
     display: block;
     margin: auto;
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 /* ************************** */
 /*             font           */
 /* ************************** */
+.center{
+    text-align: center;
+}
 .font-tilt-neon{
     font-family: 'Tilt Neon', cursive;
 }
@@ -209,6 +213,28 @@ footer{
 .footer-media{
     width: 30px;
     margin: 8px;
+}
+/* ************************** */
+/*           forma            */
+/* ************************** */
+.form{
+    background-color: #070707;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 12px;
+}
+.entry{
+    background-color: #070707;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    margin: 12px;
+    width: 300px;
+}
+.entry:focus{
+    outline: none;
 }
 @media only screen and (max-width: 760px){
     .nav-list{
