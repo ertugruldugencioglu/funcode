@@ -121,6 +121,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 12px;
 }
 /* ************************** */
 /*            index           */
@@ -140,8 +141,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
-    margin: 0px 32px 32px 32px;
+    gap: 16px;
+    margin: 0px 16px 16px 16px;
 }
 .description{
     width: 300px;
@@ -159,10 +160,11 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 16px 16px 0px 16px;
+    gap: 12px;
 }
 .feature{
     width: 500px;
-    margin: 16px 16px 0px 16px;
     background-color: #070707c8;
     border-radius: 12px;
     border-style: solid;
@@ -189,7 +191,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 500px;
-    margin: 16px 16px 0px 16px;
+
     align-items: center;
 }
 .meeting-column{
@@ -231,7 +233,6 @@ header{
     border-width: 1px;
     border-color: rgb(73, 72, 72);
     padding: 32px;
-    margin: 32px 32px 0px 32px;
     width: 400px;
 }
 /* ************************** */
