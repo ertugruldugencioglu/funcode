@@ -2,6 +2,8 @@
 
 Bu repo [kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluşturduğum bitirme projemi barındıran repodur. FunCode Yazılım geliştiricileri bir araya getiren bir platformdur. İçerisindeki dosyalarda README.md , index.html, aboutus.html, contact.html, signup.html, login.html dosyalarını barındırıyor.
 
+![index](https://github.com/ertugruldugencioglu/funcode/blob/main/project%20view/funcode-index.png?raw=true)
+
 ## Installation
 Öncelikle projeyi clonelayın.
 ```
