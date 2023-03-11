@@ -335,6 +335,7 @@ footer{
     border-radius: 12px;
     background-color: #2f2e2e;
     transition: 0.1s;
+    border-width: 0px;
 }
 .submit:hover{
     padding: 8px;
