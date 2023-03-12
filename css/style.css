@@ -252,7 +252,7 @@ header{
 .contact-way{
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 350px;
     background-color: #070707;
     border-radius: 12px;
     border-style: solid;
@@ -376,9 +376,6 @@ footer{
         width: 260px;
     }
     .about{
-        width: 350px;
-    }
-    .contact-way{
         width: 350px;
     }
 }
