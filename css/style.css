@@ -10,6 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Tilt Neon', cursive;
+    line-height: 30px;
 }
 /* ************************** */
 /*             main           */
@@ -29,9 +31,6 @@ main{
 }
 .font-tilt-neon{
     font-family: 'Tilt Neon', cursive;
-}
-.font-sans-serif{
-    font-family: sans-serif;
 }
 .p-12{
     font-size: 1.2em;
@@ -53,28 +52,22 @@ main{
     color: white;
     margin: 0vw;
 }
-.h1-6{
+.h1-5{
     font-size: 5em;
     color: white;
     margin: 0vw;
-}
-.h1-4{
-    font-size: 5em;
-    color: white;
-    margin: 0vw;
+    line-height: 80px;
 }
 .h2-2{
     font-size: 2em;
     color: white;
-    margin: 0vw;
+    margin: 0px;
 }
 .h2-3{
     font-size: 3em;
     color: white;
-    margin: 0vw;
-}
-.line-height-25{
-    line-height: 30px;
+    margin: 0px 0px 24px 0px;
+    line-height: 48px;
 }
 /* ************************** */
 /*           header           */
@@ -95,6 +88,7 @@ header{
     display: flex;
     align-items: center;
     margin-right: auto;
+    text-decoration: none;
 }
 .nav-logo img{
     width: 60px;
@@ -133,9 +127,13 @@ header{
     justify-content: center;
     align-items: center;
     gap: 12px;
+    line-height: 80px;
 }
 .logo-funcode img{
     width: 200px;
+}
+.slogan{
+    line-height: 32px;
 }
 .descriptions{
     display: flex;
@@ -233,6 +231,7 @@ header{
     border-width: 1px;
     border-color: rgb(73, 72, 72);
     padding: 32px;
+    margin-top: 32px;
     width: 400px;
 }
 /* ************************** */
@@ -259,7 +258,7 @@ header{
     border-style: solid;
     border-width: 1px;
     border-color: rgb(73, 72, 72);
-    margin: 4px;
+    margin: 8px;
     padding: 4px;
     transition: 0.1s;
 }
@@ -305,7 +304,7 @@ footer{
     margin: 8px;
 }
 /* ************************** */
-/*           forma            */
+/*           forms            */
 /* ************************** */
 .form{
     background-color: #070707;
@@ -341,6 +340,14 @@ footer{
     padding: 8px;
     border-radius: 12px;
     background-color: #7f7f7f;
+}
+.form-link{
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+.form-link:hover{
+    text-decoration: none;
+    color: white;
 }
 @media only screen and (max-width: 760px){
     .nav-list{
