@@ -153,7 +153,7 @@ header{
     margin: 0px 16px 16px 16px;
 }
 .description{
-    width: 300px;
+    width: 350px;
     background-color: #070707c8;
     border-radius: 12px;
     border-style: solid;
@@ -381,6 +381,9 @@ footer{
     }
     .meeting{
         display: none;
+    }
+    .description{
+        width: 300px;
     }
     .feature{
         width: 260px;
